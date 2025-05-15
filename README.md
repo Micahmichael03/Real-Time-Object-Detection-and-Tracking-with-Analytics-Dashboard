@@ -8,6 +8,9 @@ This project implements a real-time object detection and tracking system with an
 
 When objects are detected within the defined ROI, the system automatically logs this data to a MySQL database in real-time. The database architecture is optimized for analytics workloads, with carefully designed tables that capture object classes, counts, timestamps, and other relevant metrics. This data pipeline enables seamless integration with Power BI, which connects directly to the MySQL server to create live, interactive dashboards that visualize object detection metrics in real-time. The end-to-end solution provides manufacturing managers with actionable insights into production flows, quality control processes, and operational efficiency without any manual data entry or processing delays.
 
+![Detection Results](assets/results_img(1).png)
+*Figure 1: Real-time object detection showing manufacturing components within ROI*
+
 ## Features
 
 - **Real-time object detection** using YOLOv8 models
